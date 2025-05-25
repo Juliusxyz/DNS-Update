@@ -46,7 +46,7 @@ def main():
             update_dns_record(new_ip)
             current_ip = new_ip
         else:
-            print('IP adress didn't change.')
+            print("IP adress didn't change.")
 
 if __name__ == '__main__':
     main()
